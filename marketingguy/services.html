@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="page-header">Services</h1>
+    <div class="row">
+      <div ng-repeat="service in services">
+        <div class="col-sm-4" data-itemId="{{service.id}}">
+          <div class="row">
+            <div class="col-sm-12 rounded thumbnail"><img src="{{service.image}}" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3 class="lead">{{service.name}}</h3>
+              <p>{{service.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

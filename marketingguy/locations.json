@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Jakarta Location",
+    "building_name": "Wisma 77 Tower 1, 7th floor",
+    "street address": "Jl. S. Parman Kav. 77",
+    "city": "Jakarta",
+    "zip": "11410",
+    "country": "Indonesia"
+  },
+  {
+    "id": 2,
+    "name": "Tokyo Location",
+    "building_name": "Rakuten Crimson House",
+    "street address": "1-14-1 Tamagawa, Setagaya-ku",
+    "city": "Tokyo",
+    "zip": "158-0094",
+    "country": "Japan"
+  },
+  {
+    "id": 3,
+    "name": "U.S Location",
+    "building_name": "",
+    "street address": "3933 Lake Washington Blvd NE #200",
+    "city": "WA",
+    "zip": "98033",
+    "country": "United States"
+  }
+]

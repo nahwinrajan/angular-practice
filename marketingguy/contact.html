@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="page-header">Contact</h1>
+    <div class="row">
+      <div ng-repeat="loc in locations">
+        <div class="col-sm-4">
+          <ul style="list-style: none;">
+            <li class="page-header"><h4>{{loc.name}}</h4></li>
+            <li>{{loc.building_name}}</li>
+            <li>{{loc.street_name}}</li>
+            <li>{{loc.city}}, {{loc.zip}}</li>
+            <li>{{loc.country}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
