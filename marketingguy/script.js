@@ -23,17 +23,17 @@ var app = angular.module("marketingguy", ['ngRoute'])
   }])
 
 .controller('MainController', ['$scope', '$http', function($scope, $http) {
-  $http.get('services.json').then(function(response){
-    $scope.services = response.data;
+  $http.get('services.json').then(function(data){
+    $scope.services = data;
   });
 }])
 .controller('ServicesController', ['$scope', '$http', function($scope, $http) {
-  $http.get('services.json').then(function(response){
-    $scope.services = response.data;
+  $http.get('services.json').then(function(data){
+    $scope.services = data;
   });
 }])
 .controller('ContactController', ['$scope', '$http', function($scope, $http) {
-  $http.get('locations.json').then(function(response){
-    $scope.locations = response.data;
+  $http.get('locations.json').then(function(data){
+    $scope.locations = data;
   });
 }]);
